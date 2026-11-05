@@ -1,0 +1,16 @@
+# Texto sempre com quebra de linha LF (evita os avisos de LF/CRLF no Windows)
+* text=auto eol=lf
+
+# Arquivos binários: o Git não deve tentar mexer neles nem mostrar diferenças de texto
+*.glb binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.flac binary
+*.m4a binary
+*.zip binary

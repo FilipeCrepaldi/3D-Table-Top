@@ -1,0 +1,27 @@
+# dependências e build
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# dados de quem usa o app (banco, artes, sons e modelos importados)
+data/
+backups/
+
+# pacotes de modelos originais (só servem para reconverter; os modelos já estão em public/models)
+*.zip
+
+# imagens soltas na raiz do projeto (as do app ficam em data/ ou public/)
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+
+# editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# opcional: modelos de terceiros que não podem ser redistribuídos
+public/assets-terceiros/
